@@ -354,11 +354,3 @@ with tab5:
 
 # Menambahkan footer
 st.markdown("<div class='footer'>© 2025 Analisis Keselamatan Kebakaran Jakarta | Sumber data: Dinas Pemadam Kebakaran Jakarta</div>", unsafe_allow_html=True)
-
-# Menambahkan bagian fitur "Segera Hadir"
-st.sidebar.markdown("---")
-st.sidebar.markdown("### Segera Hadir")
-st.sidebar.markdown("- Analisis tren waktu")
-st.sidebar.markdown("- Pemodelan risiko kebakaran prediktif")
-st.sidebar.markdown("- Peta panas geografis (Geographic heatmap)")
-st.sidebar.markdown("- Analisis waktu tanggap insiden")
