@@ -350,7 +350,7 @@ with tab4:
 with tab5:
     with st.container():
         st.markdown("<style>iframe {background-color: white;}</style><h2 class='sub-header'>Peta</h2>", unsafe_allow_html=True)
-        st.components.v1.iframe(src="https://datawrapper.dwcdn.net/oSBOq/1/", height=900, width=1000, scrolling=True)
+        st.components.v1.iframe(src="https://datawrapper.dwcdn.net/oSBOq/1/", height=900, width=100%, scrolling=False)
 
 # Menambahkan footer
 st.markdown("<div class='footer'>© 2025 Analisis Keselamatan Kebakaran Jakarta | Sumber data: Dinas Pemadam Kebakaran Jakarta</div>", unsafe_allow_html=True)
